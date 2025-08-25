@@ -13,7 +13,7 @@
 // 2. export : export.module{sum , multiply}
 
 //  *********************** New way to import/export  file in another file *********************
-// 1. add "type":module in package .json
+// 1. add "type":module in package.json
  // 2. import :  import {} fron "./"
  //   3. export :  export like export sum
 
