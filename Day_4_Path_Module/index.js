@@ -9,7 +9,7 @@ console.log("Files Join=" , fullpath);
 
 //Output: Files Join= \path\index.py\file.java
 
-//2.absolute Path ( Current Path)
+//2.absolute Path ( jo Current Path he )
 const absolutepth = path.resolve();
 console.log("We are working in Path:" , absolutepth); // 
 
