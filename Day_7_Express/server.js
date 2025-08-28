@@ -1,10 +1,15 @@
+//npm init -y
+//npm i express
+// ctl +c : lest from nodemon
+
+// We are creating server using Express 
 import express from 'express'
 
 const app = express();
 
 // ************** Creating Route ******************
 //  /home page
-app.get('/' , (req,res)=>{
+app.get('/' , (req,res)=>{                      // In Express , we use get() method for request
     res.send("Welcome to Home page Routing..")
 })
 // 2. /about page 
