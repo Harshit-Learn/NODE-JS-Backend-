@@ -5,6 +5,8 @@
 // /about → Show about page
 // /contact → Show contact page
 
+// npm init -y
+
 import http from "http";
 
 const server = http.createServer((req, res) => {
