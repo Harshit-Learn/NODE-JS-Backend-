@@ -16,7 +16,7 @@ const app = express();
 // ];
 // //Send Response in json  
 // app.get('/' , (req, res)=>{
-//     res.json({
+//     res.json({                                               // For json - res.json()
 //         massage:"Fetch all Data..",
 //         products:product,
 //         success:true
@@ -25,7 +25,7 @@ const app = express();
 
     // // Send HTML 
     // app.get('/' , (req ,res)=>{
-    //   res.send( " <h1>Send response in HTML </h1>" )
+    //   res.send( " <h1>Send response in HTML </h1>" )          // For HTML - res.send()
      
     // })
 
@@ -38,7 +38,7 @@ const app = express();
 
     const url = path.join(dir ,'./index.html') // join in path
     console.log("Full path=", url)
-    res.sendFile(url)
+    res.sendFile(url)                                           // For HTML File - res.sendFile()
      
     });
    
