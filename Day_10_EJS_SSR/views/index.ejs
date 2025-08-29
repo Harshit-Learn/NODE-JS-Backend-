@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS SET-UP</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+     <!--Add Dynamic Value (Harshit) in HTML -->
+     <h2>We are Learning EJS <%= name %> </h2>  
+     <ul>
+        <li>Smart Phone = <%= products[0].title %></li>
+        <li>Price = <%= products[0].price %> </li> <br>
+
+        <li>Smart Phone = <%= products[1].title %></li>
+        <li>Price = <%= products[1].price %> </li>  <br>
+
+        <li>Smart Phone = <%= products[2].title %></li>
+        <li>Price = <%= products[2].price %> </li>
+        
+     </ul>
+</body>
+</html>
