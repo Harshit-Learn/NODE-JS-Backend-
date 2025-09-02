@@ -1,14 +1,14 @@
 //  Template Engine (ejs) || SSR ( Server Side Rendering )
 //  EJS = tool for embedding JS into HTML templates.
 // SSR = technique of rendering the final HTML on the server before sending it to the browser.
-
+// 
 // npm init -y
 //npm i express 
 // npm i ejs   install EJS 
 
-// Note: EJS file send krne ke liye res.render() use krte he similarly For HTML - res.send() , HTML file - res.sendFile()  & Foe Json- res.json()
+// Note: EJS file send krne ke liye res.render() use krte he similarly For HTML - res.send() , HTML file - res.sendFile()  & Foe Json- res.json().   Server ke through hm HTML  file me changes kr skte he  aur yhi SSR he .
 
-// HTML ko view folder ke under hi create krte he
+// HTML ko view folder ke under hi rkhte he  in EJS
 
 import express from 'express'
 
