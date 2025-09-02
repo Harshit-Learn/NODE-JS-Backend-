@@ -8,7 +8,7 @@ import express from 'express'
 const app = express();
 
 // ************** Creating Route ******************
-//  /home page
+//  /home page Route
 app.get('/' , (req,res)=>{                      // In Express , we use get() method for request
     res.send("Welcome to Home page Routing..")
 })
